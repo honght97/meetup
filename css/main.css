@@ -1,0 +1,54 @@
+.meetup-works {
+    margin-bottom: 6rem;
+}
+.meetup-works__title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:  2.5rem;
+}
+.meetup-works__title h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    margin-bottom: 1.5rem;
+}
+.meetup-works__title p {
+    width: 50%;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.meetup-works__promote {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4rem;
+}
+.meetup-works__promote__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.meetup-works__promote__item h3 {
+    text-align:  center;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: var(--btn-color);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.meetup-works__promote__item p {
+    text-align:  center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.meetup-works__btn {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top:  2.5rem ;
+}
