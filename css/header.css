@@ -38,13 +38,13 @@
 }
 
 .header__content--left h1{
-    font-size: 4.8rem;   
+    font-size: 4.6rem;   
     font-weight: 700;
-    line-height: 4.8rem;
+    line-height: 4.6rem;
     margin-bottom: 1.5rem;
 }
 .header__content--left p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 2.4rem;
     color: var(--black);
 }
@@ -69,7 +69,7 @@
     opacity: .8;
 }
 .header__category__item a:last-child {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     line-height: 2.4rem;
     color: var(--btn-color);
@@ -86,9 +86,9 @@
     margin-bottom: 5rem;
 }
 .btn {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding: 1.4rem;
     border-radius: 4rem;
     background-color: var(--btn-color);
     color: var(--white);
@@ -96,4 +96,80 @@
 }
 .btn:hover {
     background-color: var(--btn-hover);
+}
+.header__bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+.header__bottom h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    margin-bottom: 1.5rem;
+}
+.header__bottom__search--input {
+    display: flex;
+    justify-content: space-between;
+}
+.header__bottom__search--input .input__search,
+.header__bottom__search--input .input__location {
+    width: 50%;
+    position: relative;
+}
+.header__bottom__search--input .input__search {
+    margin-right: 1rem;
+}
+.header__bottom__search--input input {
+    border: 1px solid #d9d9d9;
+    outline: none;
+    padding: 1.2rem 1.2rem 1.2rem  3rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.header__bottom__search--input  input::placeholder {
+    font-size: 1.4rem;
+}
+.header__bottom__search--input i {
+    font-size: 1.4rem;
+    color: var(--gray-color);
+    position: absolute;
+    left: 1.2rem;
+    top: 1.2rem;
+}
+.header__bottom__search button {
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 1.2rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #F65858;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header__bottom__search button:hover {
+    background-color: #f77070;
+}
+.header__bottom__trendy {
+    display: flex;
+    flex-direction: column;
+}
+.header__bottom__trendy__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__bottom__trendy__item div {
+    display: flex;
+    width: 100%;
+}
+.header__bottom__trendy__item div:first-child {
+    margin-bottom: 1rem;
+}
+.header__bottom__trendy__item a {
+    margin-right: .5rem;
 }
