@@ -1,0 +1,99 @@
+.header {
+    position: relative;
+}
+.nav {
+    min-height: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 6.5rem;
+}
+.nav__logo {
+    padding-left:  1.5rem;
+}
+.nav__customer {
+    display: flex;
+}
+.nav__customer a {
+    font-size: 1.4rem;
+    color: var(--black);
+    font-weight: 500;
+    line-height: 2rem;
+}
+.nav__customer a:first-child {
+    padding-right: 1.5rem;
+}
+.nav__customer a:hover {
+    color: var(--btn-color);
+}
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__content--left {
+    width: 50%;
+}
+
+.header__content--left h1{
+    font-size: 4.8rem;   
+    font-weight: 700;
+    line-height: 4.8rem;
+    margin-bottom: 1.5rem;
+}
+.header__content--left p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--black);
+}
+.header__content--right {
+    flex-grow: 1;
+}
+
+.header__category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+.header__category__item a:first-child {
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    transition: all .3s ease;
+}
+.header__category__item a:first-child:hover {
+    opacity: .8;
+}
+.header__category__item a:last-child {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--btn-color);
+}
+.header__category__item a:last-child:hover {
+    text-decoration: underline;
+}
+.header__category__item a:last-child i {
+    padding-left: .5rem;
+}
+.header__btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.btn {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    background-color: var(--btn-color);
+    color: var(--white);
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: var(--btn-hover);
+}
