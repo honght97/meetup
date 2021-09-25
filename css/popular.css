@@ -15,7 +15,7 @@
 
 }
 .popular__slide__item {
-    width: 31%;
+    width: 31.8%;
     border: 1px solid #d9d9d9;
     border-radius: 10px;
     flex-shrink: 0;
@@ -36,7 +36,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 2.6rem;
-    color: black;
+    color: var(--text-color);
     padding-left: 1rem;
 }
 .border {
@@ -46,7 +46,7 @@
 .popular__slide__item__info p {
     font-size: 1.6rem;
     font-weight: 500;
-    color: black;
+    color: var(--text-color);
     padding-top: 1rem;
 }
 .popular__slide i {

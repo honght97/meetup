@@ -1,0 +1,17 @@
+.stories {
+    margin-bottom: 5rem;
+}
+.stories__heading {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.stories__heading:hover {
+    text-decoration: underline;
+}
+.stories__detail {
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--gray-color);
+    line-height: 2.4rem;
+}

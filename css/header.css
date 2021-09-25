@@ -18,7 +18,7 @@
 }
 .nav__customer a {
     font-size: 1.2rem;
-    color: black;
+    color: var(--text-color);
     font-weight: 500;
     line-height: 2rem;
 }
@@ -46,38 +46,38 @@
 .header__content--left p {
     font-size: 1.4rem;
     line-height: 2.4rem;
-    color: black;
+    color: var(--text-color);
 }
 .header__content--right {
     flex-grow: 1;
 }
 
-.header__category {
+.category {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1.5rem;
     margin-top: 5rem;
     margin-bottom: 2.5rem;
 }
-.header__category__item a:first-child {
+.category__item .category__item--img{
     border-radius: 1rem;
     overflow: hidden;
     margin-bottom: 1.5rem;
     transition: all .3s ease;
 }
-.header__category__item a:first-child:hover {
+.category__item .category__item--img:hover {
     opacity: .8;
 }
-.header__category__item a:last-child {
+.category__item .category__item--title {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 2.4rem;
     color: var(--btn-color);
 }
-.header__category__item a:last-child:hover {
+.category__item .category__item--title:hover {
     text-decoration: underline;
 }
-.header__category__item a:last-child i {
+.category__item .category__item--title i {
     padding-left: .5rem;
 }
 .header__btn {
