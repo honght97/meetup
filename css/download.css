@@ -47,3 +47,6 @@
 .download__img--right {
     right: 0;
 }
+.footer-social--app .download__app__main {
+    border-radius: 5px;
+}
