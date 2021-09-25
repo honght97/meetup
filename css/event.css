@@ -1,19 +1,23 @@
-.event__title {
+.event {
+    margin-bottom: 5rem;
+}
+.main__title {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2.5rem;
+    align-items: center;
 }
-.event__title h2 {
+.main__title h2 {
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 3.4rem;
 }
-.event__title a {
-    font-size: 1.2rem;
+.main__title a {
+    font-size: 1.4rem;
     line-height: 2.4rem;
     color: var(--btn-color);
 }
-.event__title a:hover {
+.main__title a:hover {
     text-decoration: underline;
 }
 .event__carousel {
@@ -51,16 +55,13 @@
 .event__btn:hover {
     background-color: white;
 }
-.event__carousel {
-    margin-bottom: 2.5rem;
-}
 .event__carousel__item__info {
     margin-top: 1.5rem;
 }
 .event__carousel__item__info a {
     padding-left: 1rem;
 }
-.event__carousel__item__info time {
+time {
     color: var(--text-time);
     font-size: 1.4rem;
     font-weight: 500;
