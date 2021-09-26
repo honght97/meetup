@@ -71,6 +71,10 @@
     .footer-social--app {
         display: none;
     }
+    .copy-right {
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
+    }
 }
 /*============= Mobile & Tablet =========== */
 @media (max-width: 63.9375em) {
