@@ -41,7 +41,7 @@
     font-size: 4.6rem;   
     font-weight: 700;
     line-height: 4.6rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 .header__content--left p {
     font-size: 1.4rem;
@@ -80,19 +80,21 @@
 .category__item .category__item--title i {
     padding-left: .5rem;
 }
-.header__btn {
+.header__btn__list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5rem;
+    column-gap: 1.5rem;
 }
 .btn {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.2rem;
-    padding: 1.2rem;
+    padding: 1.5rem;
     border-radius: 3rem;
     background-color: var(--btn-color);
     color: white;
     transition: all 0.3s ease;
+    min-width: max-content;
 }
 .btn:hover {
     background-color: var(--btn-hover);
@@ -162,13 +164,11 @@
 .header__bottom__trendy__item {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 1rem;
 }
 .header__bottom__trendy__item div {
     display: flex;
     width: 100%;
-}
-.header__bottom__trendy__item div:first-child {
-    margin-bottom: 1rem;
 }
 .header__bottom__trendy__item a {
     margin-right: .5rem;
